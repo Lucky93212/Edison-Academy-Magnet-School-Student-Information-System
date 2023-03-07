@@ -270,10 +270,6 @@ def student_add_view(request):
     else:
         form = StudentAddForm()
 
-    for user in User.objects.filter(is_student=True):
-        student = Student.objects.create(student=user, level="Grade 10", department=Program.objects.first())
-        student.save()
-
     return render(request, 'accounts/add_student.html', {
         'title': "Add Student | DjangoSMS",
         'form': form
