@@ -1,5 +1,5 @@
 
-# EAMS SIS
+# Edison Academy Magnet School - Student Information System
 ![image](https://user-images.githubusercontent.com/63886761/223351912-4a8ca7a6-3527-494a-8b71-66fcd7ec8bf8.png)
 Edison Academy Magnet School Student Information System (EAMS SIS) is a integrated student management system that allows users to track student progress via integrated quizzes, points tracking, and detailed reporting.
 
